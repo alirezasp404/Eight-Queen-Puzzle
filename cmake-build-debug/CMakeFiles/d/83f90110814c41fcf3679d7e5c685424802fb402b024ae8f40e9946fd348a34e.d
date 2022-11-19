@@ -499,10 +499,12 @@
   ../views/Background.h \
   ../views/Button.cpp \
   ../views/Button.h \
+  ../views/ChessBoard.cpp \
+  ../views/ChessBoard.h \
   ../views/StartBackground.cpp \
   ../views/StartBackground.h \
-  ../windows/ChessBoard.cpp \
-  ../windows/ChessBoard.h \
+  ../windows/Board.cpp \
+  ../windows/Board.h \
   ../windows/Start.cpp \
   ../windows/Start.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/cmake/win/bin/cmake.exe

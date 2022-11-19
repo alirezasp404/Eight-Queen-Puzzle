@@ -1,6 +1,6 @@
 
 #include "Start.h"
-#include "ChessBoard.h"
+#include "Board.h"
 
 Start::Start() {
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -27,6 +27,6 @@ Start::~Start() {
 }
 
 void Start::start() {
-    (new ChessBoard())->show();
+    (new Board())->show();
     close();
 }

@@ -97,13 +97,21 @@ build CMakeFiles/8_Queen.dir/views/Background.cpp.obj: CXX_COMPILER__8_Queen_Deb
   OBJECT_DIR = CMakeFiles\8_Queen.dir
   OBJECT_FILE_DIR = CMakeFiles\8_Queen.dir\views
 
-build CMakeFiles/8_Queen.dir/windows/ChessBoard.cpp.obj: CXX_COMPILER__8_Queen_Debug C$:/Users/Alireza/Desktop/8-Queen/windows/ChessBoard.cpp || cmake_object_order_depends_target_8_Queen
+build CMakeFiles/8_Queen.dir/windows/Board.cpp.obj: CXX_COMPILER__8_Queen_Debug C$:/Users/Alireza/Desktop/8-Queen/windows/Board.cpp || cmake_object_order_depends_target_8_Queen
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\8_Queen.dir\windows\ChessBoard.cpp.obj.d
+  DEP_FILE = CMakeFiles\8_Queen.dir\windows\Board.cpp.obj.d
   FLAGS = -g -std=gnu++23
   INCLUDES = -IC:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/8_Queen_autogen/include -isystem C:/Qt/6.4.1/mingw_64/include/QtCore -isystem C:/Qt/6.4.1/mingw_64/include -isystem C:/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.4.1/mingw_64/include/QtGui -isystem C:/Qt/6.4.1/mingw_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\8_Queen.dir
   OBJECT_FILE_DIR = CMakeFiles\8_Queen.dir\windows
+
+build CMakeFiles/8_Queen.dir/views/ChessBoard.cpp.obj: CXX_COMPILER__8_Queen_Debug C$:/Users/Alireza/Desktop/8-Queen/views/ChessBoard.cpp || cmake_object_order_depends_target_8_Queen
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\8_Queen.dir\views\ChessBoard.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  INCLUDES = -IC:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/8_Queen_autogen/include -isystem C:/Qt/6.4.1/mingw_64/include/QtCore -isystem C:/Qt/6.4.1/mingw_64/include -isystem C:/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.4.1/mingw_64/include/QtGui -isystem C:/Qt/6.4.1/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\8_Queen.dir
+  OBJECT_FILE_DIR = CMakeFiles\8_Queen.dir\views
 
 build CMakeFiles/8_Queen.dir/8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CXX_COMPILER__8_Queen_Debug C$:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp || cmake_object_order_depends_target_8_Queen
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -121,7 +129,7 @@ build CMakeFiles/8_Queen.dir/8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp.obj: C
 #############################################
 # Link the executable 8_Queen.exe
 
-build 8_Queen.exe: CXX_EXECUTABLE_LINKER__8_Queen_Debug CMakeFiles/8_Queen.dir/8_Queen_autogen/mocs_compilation.cpp.obj CMakeFiles/8_Queen.dir/main.cpp.obj CMakeFiles/8_Queen.dir/windows/Start.cpp.obj CMakeFiles/8_Queen.dir/views/Button.cpp.obj CMakeFiles/8_Queen.dir/views/StartBackground.cpp.obj CMakeFiles/8_Queen.dir/views/Background.cpp.obj CMakeFiles/8_Queen.dir/windows/ChessBoard.cpp.obj CMakeFiles/8_Queen.dir/8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp.obj | C$:/Qt/6.4.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.4.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.4.1/mingw_64/lib/libQt6Core.a || 8_Queen_autogen 8_Queen_autogen_timestamp_deps
+build 8_Queen.exe: CXX_EXECUTABLE_LINKER__8_Queen_Debug CMakeFiles/8_Queen.dir/8_Queen_autogen/mocs_compilation.cpp.obj CMakeFiles/8_Queen.dir/main.cpp.obj CMakeFiles/8_Queen.dir/windows/Start.cpp.obj CMakeFiles/8_Queen.dir/views/Button.cpp.obj CMakeFiles/8_Queen.dir/views/StartBackground.cpp.obj CMakeFiles/8_Queen.dir/views/Background.cpp.obj CMakeFiles/8_Queen.dir/windows/Board.cpp.obj CMakeFiles/8_Queen.dir/views/ChessBoard.cpp.obj CMakeFiles/8_Queen.dir/8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp.obj | C$:/Qt/6.4.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.4.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.4.1/mingw_64/lib/libQt6Core.a || 8_Queen_autogen 8_Queen_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = C:/Qt/6.4.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.4.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.4.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\8_Queen.dir
@@ -180,7 +188,7 @@ build 8_Queen_autogen/timestamp 8_Queen_autogen/mocs_compilation.cpp | ${cmake_n
 #############################################
 # Custom command for 8_Queen_autogen\EWIEGA46WW\qrc_resources.cpp
 
-build 8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND ../resources.qrc CMakeFiles/8_Queen_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json ../resources/ChessBG.png ../resources/button.png ../resources/startBG.png C$:/Qt/6.4.1/mingw_64/./bin/rcc.exe || 8_Queen_autogen 8_Queen_autogen_timestamp_deps
+build 8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND ../resources.qrc CMakeFiles/8_Queen_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json ../resources/background.png ../resources/button.png ../resources/startBG.png ../resources/chessboard.png C$:/Qt/6.4.1/mingw_64/./bin/rcc.exe || 8_Queen_autogen 8_Queen_autogen_timestamp_deps
   COMMAND = cmd.exe /C "cd /D C:\Users\Alireza\Desktop\8-Queen\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_autorcc C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/CMakeFiles/8_Queen_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for resources.qrc
   restat = 1
