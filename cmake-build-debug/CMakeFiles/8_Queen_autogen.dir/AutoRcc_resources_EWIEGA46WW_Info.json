@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/8_Queen_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Alireza/Desktop/8-Queen",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Alireza/Desktop/8-Queen",
+	"INCLUDE_DIR" : "C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/8_Queen_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/Alireza/Desktop/8-Queen/resources/buttonBG.png",
+		"C:/Users/Alireza/Desktop/8-Queen/resources/startBG.png"
+	],
+	"LOCK_FILE" : "C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/CMakeFiles/8_Queen_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.4.1/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/CMakeFiles/8_Queen_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/Alireza/Desktop/8-Queen/resources.qrc",
+	"VERBOSITY" : 0
+}
