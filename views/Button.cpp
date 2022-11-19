@@ -13,7 +13,7 @@ Button:: Button(int width,int height):width(width),height(height), QGraphicsText
     document()->setDocumentMargin(10);
 }
 void Button::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) {
-    QPixmap pixmap(":images/buttonBG");
+    QPixmap pixmap(":images/button");
     pixmap=pixmap.scaled(width,height);
     painter->setBrush(pixmap);
     painter->drawRect(boundingRect());

@@ -220,6 +220,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/Alireza/Desktop/8-Queen/views/Background.h",
+			"MU",
+			"DWW7M6GQBY/moc_Background.cpp",
+			null
+		],
+		[
 			"C:/Users/Alireza/Desktop/8-Queen/views/Button.h",
 			"MU",
 			"DWW7M6GQBY/moc_Button.cpp",
@@ -229,6 +235,12 @@
 			"C:/Users/Alireza/Desktop/8-Queen/views/StartBackground.h",
 			"MU",
 			"DWW7M6GQBY/moc_StartBackground.cpp",
+			null
+		],
+		[
+			"C:/Users/Alireza/Desktop/8-Queen/windows/ChessBoard.h",
+			"MU",
+			"Z5D6VF4H2M/moc_ChessBoard.cpp",
 			null
 		],
 		[
@@ -308,12 +320,14 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/Alireza/Desktop/8-Queen/main.cpp", "MU", null ],
+		[ "C:/Users/Alireza/Desktop/8-Queen/views/Background.cpp", "MU", null ],
 		[ "C:/Users/Alireza/Desktop/8-Queen/views/Button.cpp", "MU", null ],
 		[
 			"C:/Users/Alireza/Desktop/8-Queen/views/StartBackground.cpp",
 			"MU",
 			null
 		],
+		[ "C:/Users/Alireza/Desktop/8-Queen/windows/ChessBoard.cpp", "MU", null ],
 		[ "C:/Users/Alireza/Desktop/8-Queen/windows/Start.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

@@ -495,10 +495,14 @@
 	C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake \
 	C:/Users/Alireza/Desktop/8-Queen/main.cpp \
 	C:/Users/Alireza/Desktop/8-Queen/resources.qrc \
+	C:/Users/Alireza/Desktop/8-Queen/views/Background.cpp \
+	C:/Users/Alireza/Desktop/8-Queen/views/Background.h \
 	C:/Users/Alireza/Desktop/8-Queen/views/Button.cpp \
 	C:/Users/Alireza/Desktop/8-Queen/views/Button.h \
 	C:/Users/Alireza/Desktop/8-Queen/views/StartBackground.cpp \
 	C:/Users/Alireza/Desktop/8-Queen/views/StartBackground.h \
+	C:/Users/Alireza/Desktop/8-Queen/windows/ChessBoard.cpp \
+	C:/Users/Alireza/Desktop/8-Queen/windows/ChessBoard.h \
 	C:/Users/Alireza/Desktop/8-Queen/windows/Start.cpp \
 	C:/Users/Alireza/Desktop/8-Queen/windows/Start.h \
 	C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/cmake/win/bin/cmake.exe

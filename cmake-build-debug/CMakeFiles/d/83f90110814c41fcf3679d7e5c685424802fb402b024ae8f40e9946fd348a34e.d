@@ -495,10 +495,14 @@
   CMakeFiles/3.23.2/CMakeSystem.cmake \
   ../main.cpp \
   ../resources.qrc \
+  ../views/Background.cpp \
+  ../views/Background.h \
   ../views/Button.cpp \
   ../views/Button.h \
   ../views/StartBackground.cpp \
   ../views/StartBackground.h \
+  ../windows/ChessBoard.cpp \
+  ../windows/ChessBoard.h \
   ../windows/Start.cpp \
   ../windows/Start.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/cmake/win/bin/cmake.exe

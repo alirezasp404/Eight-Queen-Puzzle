@@ -7,7 +7,8 @@
 	"INCLUDE_DIR" : "C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/8_Queen_autogen/include",
 	"INPUTS" : 
 	[
-		"C:/Users/Alireza/Desktop/8-Queen/resources/buttonBG.png",
+		"C:/Users/Alireza/Desktop/8-Queen/resources/ChessBG.png",
+		"C:/Users/Alireza/Desktop/8-Queen/resources/button.png",
 		"C:/Users/Alireza/Desktop/8-Queen/resources/startBG.png"
 	],
 	"LOCK_FILE" : "C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/CMakeFiles/8_Queen_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
