@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(8_Queen main.cpp  resources.qrc windows/Start.cpp windows/Start.h views/Button.cpp views/Button.h views/StartBackground.cpp views/StartBackground.h views/Background.h views/Background.cpp windows/Board.h windows/Board.cpp views/ChessBoard.cpp views/ChessBoard.h views/Queen.cpp views/Queen.h)
+add_executable(8_Queen main.cpp  resources.qrc windows/Start.cpp windows/Start.h views/Button.cpp views/Button.h views/StartBackground.cpp views/StartBackground.h views/Background.h views/Background.cpp windows/Board.h windows/Board.cpp views/ChessBoard.cpp views/ChessBoard.h views/Queen.cpp views/Queen.h views/Label.cpp views/Label.h)
 target_link_libraries(8_Queen
         Qt::Core
         Qt::Gui

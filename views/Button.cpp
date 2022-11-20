@@ -6,7 +6,7 @@
 Button:: Button(int width,int height):width(width),height(height), QGraphicsTextItem(){
     setDefaultTextColor(QColor("white"));
     QFont font;
-    font.setPixelSize(23);
+    font.setPixelSize(30);
     font.setBold(true);
     setFont(font);
     setTextWidth(width);

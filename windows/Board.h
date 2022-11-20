@@ -8,16 +8,22 @@
 #include "../views/Background.h"
 #include "../views/ChessBoard.h"
 #include "../views/Queen.h"
+#include "../views/Label.h"
 #include <QKeyEvent>
+
 class Board : public QGraphicsView {
 private:
     QGraphicsScene *scene;
     Background *background;
     ChessBoard *black;
     QList<Queen *> queens;
+    Label *solution;
+    Label *showCounter;
+    Label *guide;
+    Label *eightQueen;
     int numOfQueens = 8;
-    int counter=0;
-    int boardHeight,boardWidth;
+    int counter = 0;
+    int boardHeight, boardWidth;
 
 public:
     Board();
@@ -25,13 +31,18 @@ public:
     ~Board();
 
     void addQueen();
+
     void removeQueen(int);
 
+    void addDetails();
+
     static bool possible(int *, int);
+
     void n_queen(int *, int, int);
+
 protected:
     void keyPressEvent(QKeyEvent *event) override;
-    };
+};
 
 
 #endif //INC_8_QUEEN_BOARD_H

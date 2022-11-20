@@ -501,6 +501,8 @@
   ../views/Button.h \
   ../views/ChessBoard.cpp \
   ../views/ChessBoard.h \
+  ../views/Label.cpp \
+  ../views/Label.h \
   ../views/Queen.cpp \
   ../views/Queen.h \
   ../views/StartBackground.cpp \

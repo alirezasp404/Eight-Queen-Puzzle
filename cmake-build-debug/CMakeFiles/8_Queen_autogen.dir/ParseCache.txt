@@ -340,3 +340,5 @@ C:/Users/Alireza/Desktop/8-Queen/views/ChessBoard.h
 C:/Users/Alireza/Desktop/8-Queen/views/ChessBoard.cpp
 C:/Users/Alireza/Desktop/8-Queen/views/Queen.h
 C:/Users/Alireza/Desktop/8-Queen/views/Queen.cpp
+C:/Users/Alireza/Desktop/8-Queen/views/Label.h
+C:/Users/Alireza/Desktop/8-Queen/views/Label.cpp

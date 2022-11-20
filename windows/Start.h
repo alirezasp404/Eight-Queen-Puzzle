@@ -4,13 +4,17 @@
 #include "QGraphicsView"
 #include "../views/StartBackground.h"
 #include "../views/Button.h"
+#include "../views/Label.h"
+#include "../views/Queen.h"
 
-    class Start : public QGraphicsView {
+class Start : public QGraphicsView {
 
     private:
         QGraphicsScene *scene;
         StartBackground *background;
         Button *button;
+        Label* eightQueen;
+        Queen* queen;
 
     public:
         Start();
