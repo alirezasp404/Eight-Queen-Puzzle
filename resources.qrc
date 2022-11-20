@@ -3,6 +3,7 @@
         <file alias="startBG">resources/startBG.png</file>
         <file alias="button">resources/button.png</file>
         <file alias="background">resources/background.png</file>
-        <file alias="chessboard">resources/chessboard.png</file>
+        <file alias="chessboard">resources/chessboar.png</file>
+        <file alias="queen">resources/qu.png</file>
     </qresource>
 </RCC>

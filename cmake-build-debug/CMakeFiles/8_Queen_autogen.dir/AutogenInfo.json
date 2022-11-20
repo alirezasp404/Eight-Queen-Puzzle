@@ -238,6 +238,12 @@
 			null
 		],
 		[
+			"C:/Users/Alireza/Desktop/8-Queen/views/Queen.h",
+			"MU",
+			"DWW7M6GQBY/moc_Queen.cpp",
+			null
+		],
+		[
 			"C:/Users/Alireza/Desktop/8-Queen/views/StartBackground.h",
 			"MU",
 			"DWW7M6GQBY/moc_StartBackground.cpp",
@@ -329,6 +335,7 @@
 		[ "C:/Users/Alireza/Desktop/8-Queen/views/Background.cpp", "MU", null ],
 		[ "C:/Users/Alireza/Desktop/8-Queen/views/Button.cpp", "MU", null ],
 		[ "C:/Users/Alireza/Desktop/8-Queen/views/ChessBoard.cpp", "MU", null ],
+		[ "C:/Users/Alireza/Desktop/8-Queen/views/Queen.cpp", "MU", null ],
 		[
 			"C:/Users/Alireza/Desktop/8-Queen/views/StartBackground.cpp",
 			"MU",
