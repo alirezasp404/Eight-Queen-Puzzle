@@ -204,7 +204,7 @@ build 8_Queen_autogen/timestamp 8_Queen_autogen/mocs_compilation.cpp | ${cmake_n
 #############################################
 # Custom command for 8_Queen_autogen\EWIEGA46WW\qrc_resources.cpp
 
-build 8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND ../resources.qrc CMakeFiles/8_Queen_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json ../resources/background.png ../resources/button.png ../resources/startBG.png ../resources/chessboar.png ../resources/qu.png C$:/Qt/6.4.1/mingw_64/./bin/rcc.exe || 8_Queen_autogen 8_Queen_autogen_timestamp_deps
+build 8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}8_Queen_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND ../resources.qrc CMakeFiles/8_Queen_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json ../resources/background.png ../resources/button.png ../resources/startBG.png ../resources/chessboard.png ../resources/queen.png C$:/Qt/6.4.1/mingw_64/./bin/rcc.exe || 8_Queen_autogen 8_Queen_autogen_timestamp_deps
   COMMAND = cmd.exe /C "cd /D C:\Users\Alireza\Desktop\8-Queen\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_autorcc C:/Users/Alireza/Desktop/8-Queen/cmake-build-debug/CMakeFiles/8_Queen_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for resources.qrc
   restat = 1
