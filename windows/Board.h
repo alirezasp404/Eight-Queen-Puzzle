@@ -18,11 +18,11 @@ private:
     ChessBoard *black;
     QList<Queen *> queens;
     Label *solution;
-    Label *showCounter;
+    Label *showCurrentSolution;
     Label *guide;
     Label *eightQueen;
-    int numOfQueens = 8;
-    int counter = 0;
+    int numOfQueens{8};
+    int currentSolution{-1};
     int boardHeight, boardWidth;
 
 public:
@@ -30,9 +30,9 @@ public:
 
     ~Board();
 
-    void addQueen();
+    void addQueen(int);
 
-    void removeQueen(int);
+    void removeQueen();
 
     void addDetails();
 

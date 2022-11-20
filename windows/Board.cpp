@@ -27,7 +27,7 @@ Board::~Board() {
     delete background;
     qDeleteAll(queens);
     delete solution;
-    delete showCounter;
+    delete showCurrentSolution;
     delete guide;
     delete eightQueen;
     delete scene;
@@ -40,31 +40,32 @@ void Board::addDetails() {
     scene->addItem(solution);
     solution->setPos((width() - height()) / 8, height() / 1.1);
 
-    showCounter = new Label(100, "white");
-    showCounter->setPlainText(" "+QString::number(counter));
-    scene->addItem(showCounter);
-    showCounter->setPos((width() - height()) / 6, height() / 5);
+    showCurrentSolution = new Label(100, "white");
+    showCurrentSolution->setPlainText(" 0");
+    scene->addItem(showCurrentSolution);
+    showCurrentSolution->setPos((width() - height()) / 6, height() / 5);
 
     guide = new Label(35, "white");
     guide->setPlainText("Next :\nArrow Right\n\nPrevious :\nArrow Left\n\nReset : Shift\n\nExit : Escape");
     scene->addItem(guide);
-    guide->setPos(5*(width() - height()) / 9 + height(), height() / 2.5);
+    guide->setPos(5 * (width() - height()) / 9 + height(), height() / 2.5);
 
     eightQueen = new Label(50, "white");
     eightQueen->setPlainText("8 Queen\n Puzzle");
     scene->addItem(eightQueen);
-    eightQueen->setPos(5*(width() - height()) / 9 + height(), height() / 6);
+    eightQueen->setPos(5 * (width() - height()) / 9 + height(), height() / 6);
 }
 
-void Board::addQueen() {
-    int number = counter * numOfQueens;
+void Board::addQueen(int add) {
+    currentSolution += add;
+    int number = currentSolution * numOfQueens;
     for (int i = number; i < number + 8; ++i) {
         scene->addItem(queens.at(i));
     }
 }
 
-void Board::removeQueen(int add) {
-    int number = (counter + add) * numOfQueens;
+void Board::removeQueen() {
+    int number = currentSolution * numOfQueens;
     for (int i = number; i < number + 8; ++i) {
         scene->removeItem(queens.at(i));
     }
@@ -95,18 +96,24 @@ void Board::n_queen(int *array, int numberOfQueens, int limit) {
 
 void Board::keyPressEvent(QKeyEvent *event) {
     QGraphicsView::keyPressEvent(event);
-    if (event->key() == Qt::Key::Key_Right && counter < 92) {
-        if (counter != 0)
-            removeQueen(-1);
-        addQueen();
-        counter++;
-        QString number= counter>=10?QString::number(counter):" "+QString::number(counter);
-        showCounter->setPlainText(number);
-    } else if (event->key() == Qt::Key::Key_Shift && counter != 0) {
-        removeQueen(-1);
-        counter = 0;
-        showCounter->setPlainText(" "+QString::number(counter));
-    }else if (event->key() == Qt::Key::Key_Escape)
+    if (event->key() == Qt::Key::Key_Right && currentSolution < 91) {
+        if (currentSolution != -1)
+            removeQueen();
+        addQueen(1);
+        QString number = (currentSolution + 1) >= 10 ? QString::number(currentSolution + 1) : " " + QString::number(
+                currentSolution + 1);
+        showCurrentSolution->setPlainText(number);
+    } else if (event->key() == Qt::Key::Key_Left && currentSolution > 0) {
+        removeQueen();
+        addQueen(-1);
+        QString number = (currentSolution + 1) >= 10 ? QString::number(currentSolution + 1) : " " + QString::number(
+                currentSolution + 1);
+        showCurrentSolution->setPlainText(number);
+    } else if (event->key() == Qt::Key::Key_Shift) {
+        removeQueen();
+        currentSolution = -1;
+        showCurrentSolution->setPlainText(" " + QString::number(currentSolution + 1));
+    } else if (event->key() == Qt::Key::Key_Escape)
         exit(0);
 }
 
